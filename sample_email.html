@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 New CS Papers</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f6f8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #1e293b;">
+    <div style="max-width: 660px; margin: 0 auto; padding: 24px 12px;">
+        
+        <!-- Header Banner -->
+        <div style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); color: #ffffff; border-radius: 12px; padding: 28px 24px; margin-bottom: 20px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+            <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px; color: #60a5fa; margin-bottom: 6px;">
+                Daily Research Intelligence
+            </div>
+            <h1 style="font-size: 22px; font-weight: 800; margin: 0 0 8px 0; letter-spacing: -0.3px;">
+                5 New CS Research Papers
+            </h1>
+            <div style="font-size: 13px; color: #cbd5e1;">
+                September 01, 2026 &bull; Curated, Deduplicated &amp; Factually Summarized
+            </div>
+        </div>
+
+        <!-- Digest Stats Banner -->
+        <div style="background-color: #e0f2fe; border: 1px solid #bae6fd; border-radius: 8px; padding: 10px 16px; margin-bottom: 20px; font-size: 12.5px; color: #0369a1; text-align: center;">
+            &#9889; <strong>2-Minute Skim:</strong> Fresh computer science papers verified not sent in previous runs.
+        </div>
+
+        <!-- Paper Cards List -->
+        
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 24px; padding: 24px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+            
+            <!-- Card Header: Number + Category + Title -->
+            <div style="margin-bottom: 12px;">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="background-color: #2563eb; color: #ffffff; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; margin-right: 8px; letter-spacing: 0.5px;">Paper #1</span>
+                    <span style="background-color: #f1f5f9; color: #475569; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; border: 1px solid #cbd5e1;">arXiv: CS.CL</span>
+                    <span style="color: #94a3b8; font-size: 11px; margin-left: auto;">2026-08-31</span>
+                </div>
+                <h2 style="font-size: 17px; line-height: 1.35; font-weight: 700; color: #0f172a; margin: 0 0 6px 0;">
+                    <a href="https://arxiv.org/abs/2608.31170v1" style="color: #0f172a; text-decoration: none; border-bottom: 1px solid #cbd5e1;" target="_blank">
+                        Context-Aware Interleaved Batching for WhisperX
+                    </a>
+                </h2>
+                <div style="font-size: 12px; color: #64748b; font-style: italic;">
+                    Authors: Carlos Bain, Max Bain
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #f1f5f9; margin: 14px 0;" />
+
+            <!-- 1. One-line Abstract Summary Callout -->
+            <div style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 10px 14px; border-radius: 0 6px 6px 0; margin-bottom: 14px;">
+                <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #3b82f6; letter-spacing: 0.6px; margin-bottom: 3px;">
+                    One-Line Summary
+                </div>
+                <div style="font-size: 13.5px; line-height: 1.45; color: #1e293b; font-weight: 500;">
+                    For Context-Aware Interleaved Batching for WhisperX, to achieve the best of both worlds, we propose Context-Aware Interleaved Batching.
+                </div>
+            </div>
+
+            <!-- 2. Real-World Relevance -->
+            <div style="margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 3px;">
+                    Real-World Relevance
+                </div>
+                <div style="font-size: 13px; line-height: 1.45; color: #334155;">
+                    As demonstrated on long-form audio benchmarks, this approach reduces Word Error Rate (WER) and improves proper noun transcription, all while maintaining high-throughput inference speeds.
+                </div>
+            </div>
+
+            <!-- 3. Point-by-Point Comparison -->
+            <div style="background-color: #fcfcfc; border: 1px solid #f1f5f9; border-radius: 6px; padding: 12px 14px; margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 6px;">
+                    Existing Tech vs. What's Proposed (Factual Comparison)
+                </div>
+                <ul style="margin: 0; padding-left: 18px; font-size: 12.5px;">
+                    <li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Technology: Suffers from baseline constraints (Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucination loops.) -> Proposed: Resolves this via architectural and algorithmic restructuring.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Implementations: Lacked end-to-end contextual batching -> Proposed: Decouples computation to maximize parallel execution throughput.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Benchmark Scores: Sub-optimal empirical throughput/accuracy -> Proposed: As demonstrated on long-form audio benchmarks, this approach reduces Word Error Rate (WER) and improves proper noun</li>
+                </ul>
+            </div>
+
+            <!-- 4 & 5. Motivation & Business Impact in 2-column style -->
+            <div style="display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 16px;">
+                <div style="background-color: #fffbeb; border: 1px solid #fef3c7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #92400e; margin-bottom: 2px;">
+                        Critical Motivation & Core Gap
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #78350f;">
+                        Conversely, standard Whisper retains context sequentially but suffers from slow inference and hallucination loops.
+                    </div>
+                </div>
+                <div style="background-color: #f0fdf4; border: 1px solid #dcfce7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #166534; margin-bottom: 2px;">
+                        Practical Business & Industry Impact
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #14532d;">
+                        Enables tech organizations to reduce infrastructure runtime costs and optimize latency in arXiv: CS.CL workloads.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Button -->
+            <div style="text-align: right;">
+                <a href="https://arxiv.org/pdf/2608.31170v1" target="_blank" style="display: inline-block; background-color: #0f172a; color: #ffffff; text-decoration: none; font-size: 11.5px; font-weight: 600; padding: 6px 14px; border-radius: 5px;">
+                    Read Full Paper (PDF) &rarr;
+                </a>
+            </div>
+        </div>
+        
+
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 24px; padding: 24px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+            
+            <!-- Card Header: Number + Category + Title -->
+            <div style="margin-bottom: 12px;">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="background-color: #2563eb; color: #ffffff; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; margin-right: 8px; letter-spacing: 0.5px;">Paper #2</span>
+                    <span style="background-color: #f1f5f9; color: #475569; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; border: 1px solid #cbd5e1;">arXiv: CS.LG</span>
+                    <span style="color: #94a3b8; font-size: 11px; margin-left: auto;">2026-08-31</span>
+                </div>
+                <h2 style="font-size: 17px; line-height: 1.35; font-weight: 700; color: #0f172a; margin: 0 0 6px 0;">
+                    <a href="https://arxiv.org/abs/2608.31166v1" style="color: #0f172a; text-decoration: none; border-bottom: 1px solid #cbd5e1;" target="_blank">
+                        Constant Individual Regret in General Games
+                    </a>
+                </h2>
+                <div style="font-size: 12px; color: #64748b; font-style: italic;">
+                    Authors: Mingyang Liu, Gabriele Farina, Asuman Ozdaglar
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #f1f5f9; margin: 14px 0;" />
+
+            <!-- 1. One-line Abstract Summary Callout -->
+            <div style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 10px 14px; border-radius: 0 6px 6px 0; margin-bottom: 14px;">
+                <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #3b82f6; letter-spacing: 0.6px; margin-bottom: 3px;">
+                    One-Line Summary
+                </div>
+                <div style="font-size: 13.5px; line-height: 1.45; color: #1e293b; font-weight: 500;">
+                    We introduce \emph{ECHO-OFTRL}: optimistic follow-the-regularized-leader (OFTRL) equipped with an EMA cascade for high-order optimism (ECHO), where EMA denotes exponential moving average.
+                </div>
+            </div>
+
+            <!-- 2. Real-World Relevance -->
+            <div style="margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 3px;">
+                    Real-World Relevance
+                </div>
+                <div style="font-size: 13px; line-height: 1.45; color: #334155;">
+                    Directly applicable to production engineering pipelines requiring optimized performance in arXiv: CS.LG.
+                </div>
+            </div>
+
+            <!-- 3. Point-by-Point Comparison -->
+            <div style="background-color: #fcfcfc; border: 1px solid #f1f5f9; border-radius: 6px; padding: 12px 14px; margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 6px;">
+                    Existing Tech vs. What's Proposed (Factual Comparison)
+                </div>
+                <ul style="margin: 0; padding-left: 18px; font-size: 12.5px;">
+                    <li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Technology: Relied on heuristic-based static baselines -> Proposed: Introduces adaptive learned representations.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Implementations: Lacked end-to-end contextual batching -> Proposed: Decouples computation to maximize parallel execution throughput.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Benchmark Scores: High compute overhead on large-scale datasets -> Proposed: Achieves superior accuracy-latency Pareto tradeoff.</li>
+                </ul>
+            </div>
+
+            <!-- 4 & 5. Motivation & Business Impact in 2-column style -->
+            <div style="display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 16px;">
+                <div style="background-color: #fffbeb; border: 1px solid #fef3c7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #92400e; margin-bottom: 2px;">
+                        Critical Motivation & Core Gap
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #78350f;">
+                        Uncoupled no-regret dynamics provide a decentralized route to equilibrium, but prior guarantees for individual regret retain a polylogarithmic dependence on the horizon.
+                    </div>
+                </div>
+                <div style="background-color: #f0fdf4; border: 1px solid #dcfce7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #166534; margin-bottom: 2px;">
+                        Practical Business & Industry Impact
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #14532d;">
+                        Enables tech organizations to reduce infrastructure runtime costs and optimize latency in arXiv: CS.LG workloads.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Button -->
+            <div style="text-align: right;">
+                <a href="https://arxiv.org/pdf/2608.31166v1" target="_blank" style="display: inline-block; background-color: #0f172a; color: #ffffff; text-decoration: none; font-size: 11.5px; font-weight: 600; padding: 6px 14px; border-radius: 5px;">
+                    Read Full Paper (PDF) &rarr;
+                </a>
+            </div>
+        </div>
+        
+
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 24px; padding: 24px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+            
+            <!-- Card Header: Number + Category + Title -->
+            <div style="margin-bottom: 12px;">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="background-color: #2563eb; color: #ffffff; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; margin-right: 8px; letter-spacing: 0.5px;">Paper #3</span>
+                    <span style="background-color: #f1f5f9; color: #475569; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; border: 1px solid #cbd5e1;">arXiv: CS.RO</span>
+                    <span style="color: #94a3b8; font-size: 11px; margin-left: auto;">2026-08-31</span>
+                </div>
+                <h2 style="font-size: 17px; line-height: 1.35; font-weight: 700; color: #0f172a; margin: 0 0 6px 0;">
+                    <a href="https://arxiv.org/abs/2608.31167v1" style="color: #0f172a; text-decoration: none; border-bottom: 1px solid #cbd5e1;" target="_blank">
+                        SUN: Persistent Programs For Language-Grounded Control-to-Learning-to-Real Policies
+                    </a>
+                </h2>
+                <div style="font-size: 12px; color: #64748b; font-style: italic;">
+                    Authors: Weiqi Wang, Zhi Li, Yudong Lei, David Martinez et al.
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #f1f5f9; margin: 14px 0;" />
+
+            <!-- 1. One-line Abstract Summary Callout -->
+            <div style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 10px 14px; border-radius: 0 6px 6px 0; margin-bottom: 14px;">
+                <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #3b82f6; letter-spacing: 0.6px; margin-bottom: 3px;">
+                    One-Line Summary
+                </div>
+                <div style="font-size: 13.5px; line-height: 1.45; color: #1e293b; font-weight: 500;">
+                    Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet existing protocols...
+                </div>
+            </div>
+
+            <!-- 2. Real-World Relevance -->
+            <div style="margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 3px;">
+                    Real-World Relevance
+                </div>
+                <div style="font-size: 13px; line-height: 1.45; color: #334155;">
+                    At 8192-way scale, it generates 10.57x the successful trajectory time per hour of human teleoperation.
+                </div>
+            </div>
+
+            <!-- 3. Point-by-Point Comparison -->
+            <div style="background-color: #fcfcfc; border: 1px solid #f1f5f9; border-radius: 6px; padding: 12px 14px; margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 6px;">
+                    Existing Tech vs. What's Proposed (Factual Comparison)
+                </div>
+                <ul style="margin: 0; padding-left: 18px; font-size: 12.5px;">
+                    <li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Technology: Suffers from baseline constraints (Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement:) -> Proposed: Resolves this via architectural and algorithmic restructuring.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Implementations: Lacked end-to-end contextual batching -> Proposed: Decouples computation to maximize parallel execution throughput.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Benchmark Scores: Sub-optimal empirical throughput/accuracy -> Proposed: Across nine tasks, Kuafu achieves 82.03% macro-success, outperforming sparse-reward (35.67%) and Stage-BC (24.75%) baselines.</li>
+                </ul>
+            </div>
+
+            <!-- 4 & 5. Motivation & Business Impact in 2-column style -->
+            <div style="display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 16px;">
+                <div style="background-color: #fffbeb; border: 1px solid #fef3c7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #92400e; margin-bottom: 2px;">
+                        Critical Motivation & Core Gap
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #78350f;">
+                        Bridging model-based control and learned policies in long-horizon manipulation has harbored a silent disagreement: control executes specified objectives, learning amortizes that behavior into a reactive policy, yet...
+                    </div>
+                </div>
+                <div style="background-color: #f0fdf4; border: 1px solid #dcfce7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #166534; margin-bottom: 2px;">
+                        Practical Business & Industry Impact
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #14532d;">
+                        Enables tech organizations to reduce infrastructure runtime costs and optimize latency in arXiv: CS.RO workloads.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Button -->
+            <div style="text-align: right;">
+                <a href="https://arxiv.org/pdf/2608.31167v1" target="_blank" style="display: inline-block; background-color: #0f172a; color: #ffffff; text-decoration: none; font-size: 11.5px; font-weight: 600; padding: 6px 14px; border-radius: 5px;">
+                    Read Full Paper (PDF) &rarr;
+                </a>
+            </div>
+        </div>
+        
+
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 24px; padding: 24px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+            
+            <!-- Card Header: Number + Category + Title -->
+            <div style="margin-bottom: 12px;">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="background-color: #2563eb; color: #ffffff; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; margin-right: 8px; letter-spacing: 0.5px;">Paper #4</span>
+                    <span style="background-color: #f1f5f9; color: #475569; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; border: 1px solid #cbd5e1;">arXiv: CS.CV</span>
+                    <span style="color: #94a3b8; font-size: 11px; margin-left: auto;">2026-08-31</span>
+                </div>
+                <h2 style="font-size: 17px; line-height: 1.35; font-weight: 700; color: #0f172a; margin: 0 0 6px 0;">
+                    <a href="https://arxiv.org/abs/2608.31159v1" style="color: #0f172a; text-decoration: none; border-bottom: 1px solid #cbd5e1;" target="_blank">
+                        BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting
+                    </a>
+                </h2>
+                <div style="font-size: 12px; color: #64748b; font-style: italic;">
+                    Authors: Yiling Yao, Wenjuan Zhang, Bowen Wang, Bocheng Li et al.
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #f1f5f9; margin: 14px 0;" />
+
+            <!-- 1. One-line Abstract Summary Callout -->
+            <div style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 10px 14px; border-radius: 0 6px 6px 0; margin-bottom: 14px;">
+                <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #3b82f6; letter-spacing: 0.6px; margin-bottom: 3px;">
+                    One-Line Summary
+                </div>
+                <div style="font-size: 13.5px; line-height: 1.45; color: #1e293b; font-weight: 500;">
+                    For BRF-GS: Hyperspectral Bidirectional Reflectance Factor Modeling and Image Generation Based on 3D Gaussian Splatting, to address these challenges, we propose BRF-GS, a 3DGS-based framework for BRF modeling and hyperspectral...
+                </div>
+            </div>
+
+            <!-- 2. Real-World Relevance -->
+            <div style="margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 3px;">
+                    Real-World Relevance
+                </div>
+                <div style="font-size: 13px; line-height: 1.45; color: #334155;">
+                    Experiments demonstrate that BRF-GS achieves superior spatial and spectral fidelity and accurately reproduces characteristic view-dependent BRF responses.
+                </div>
+            </div>
+
+            <!-- 3. Point-by-Point Comparison -->
+            <div style="background-color: #fcfcfc; border: 1px solid #f1f5f9; border-radius: 6px; padding: 12px 14px; margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 6px;">
+                    Existing Tech vs. What's Proposed (Factual Comparison)
+                </div>
+                <ul style="margin: 0; padding-left: 18px; font-size: 12.5px;">
+                    <li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Technology: Suffers from baseline constraints (However, existing three-dimensional (3D) radiative transfer models require complex scene construction and) -> Proposed: Resolves this via architectural and algorithmic restructuring.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Implementations: Lacked end-to-end contextual batching -> Proposed: Decouples computation to maximize parallel execution throughput.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Benchmark Scores: Sub-optimal empirical throughput/accuracy -> Proposed: Experiments demonstrate that BRF-GS achieves superior spatial and spectral fidelity and accurately reproduces characteristic</li>
+                </ul>
+            </div>
+
+            <!-- 4 & 5. Motivation & Business Impact in 2-column style -->
+            <div style="display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 16px;">
+                <div style="background-color: #fffbeb; border: 1px solid #fef3c7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #92400e; margin-bottom: 2px;">
+                        Critical Motivation & Core Gap
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #78350f;">
+                        However, existing three-dimensional (3D) radiative transfer models require complex scene construction and computationally intensive radiative transfer solvers, limiting efficient generation of multi-angle...
+                    </div>
+                </div>
+                <div style="background-color: #f0fdf4; border: 1px solid #dcfce7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #166534; margin-bottom: 2px;">
+                        Practical Business & Industry Impact
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #14532d;">
+                        Enables tech organizations to reduce infrastructure runtime costs and optimize latency in arXiv: CS.CV workloads.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Button -->
+            <div style="text-align: right;">
+                <a href="https://arxiv.org/pdf/2608.31159v1" target="_blank" style="display: inline-block; background-color: #0f172a; color: #ffffff; text-decoration: none; font-size: 11.5px; font-weight: 600; padding: 6px 14px; border-radius: 5px;">
+                    Read Full Paper (PDF) &rarr;
+                </a>
+            </div>
+        </div>
+        
+
+        <div style="background-color: #ffffff; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 24px; padding: 24px; box-shadow: 0 2px 5px rgba(0,0,0,0.03);">
+            
+            <!-- Card Header: Number + Category + Title -->
+            <div style="margin-bottom: 12px;">
+                <div style="display: flex; align-items: center; margin-bottom: 8px;">
+                    <span style="background-color: #2563eb; color: #ffffff; font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; margin-right: 8px; letter-spacing: 0.5px;">Paper #5</span>
+                    <span style="background-color: #f1f5f9; color: #475569; font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 4px; border: 1px solid #cbd5e1;">arXiv: CS.LG</span>
+                    <span style="color: #94a3b8; font-size: 11px; margin-left: auto;">2026-08-31</span>
+                </div>
+                <h2 style="font-size: 17px; line-height: 1.35; font-weight: 700; color: #0f172a; margin: 0 0 6px 0;">
+                    <a href="https://arxiv.org/abs/2608.31157v1" style="color: #0f172a; text-decoration: none; border-bottom: 1px solid #cbd5e1;" target="_blank">
+                        Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations
+                    </a>
+                </h2>
+                <div style="font-size: 12px; color: #64748b; font-style: italic;">
+                    Authors: Shijun Zhang
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #f1f5f9; margin: 14px 0;" />
+
+            <!-- 1. One-line Abstract Summary Callout -->
+            <div style="background-color: #f8fafc; border-left: 4px solid #3b82f6; padding: 10px 14px; border-radius: 0 6px 6px 0; margin-bottom: 14px;">
+                <div style="font-size: 10px; font-weight: 700; text-transform: uppercase; color: #3b82f6; letter-spacing: 0.6px; margin-bottom: 3px;">
+                    One-Line Summary
+                </div>
+                <div style="font-size: 13.5px; line-height: 1.45; color: #1e293b; font-weight: 500;">
+                    Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation.
+                </div>
+            </div>
+
+            <!-- 2. Real-World Relevance -->
+            <div style="margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 3px;">
+                    Real-World Relevance
+                </div>
+                <div style="font-size: 13px; line-height: 1.45; color: #334155;">
+                    Directly applicable to production engineering pipelines requiring optimized performance in arXiv: CS.LG.
+                </div>
+            </div>
+
+            <!-- 3. Point-by-Point Comparison -->
+            <div style="background-color: #fcfcfc; border: 1px solid #f1f5f9; border-radius: 6px; padding: 12px 14px; margin-bottom: 14px;">
+                <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: #475569; letter-spacing: 0.5px; margin-bottom: 6px;">
+                    Existing Tech vs. What's Proposed (Factual Comparison)
+                </div>
+                <ul style="margin: 0; padding-left: 18px; font-size: 12.5px;">
+                    <li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Technology: Relied on heuristic-based static baselines -> Proposed: Introduces adaptive learned representations.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Implementations: Lacked end-to-end contextual batching -> Proposed: Decouples computation to maximize parallel execution throughput.</li><li style='margin-bottom: 6px; line-height: 1.45; color: #2d3748;'>Prior Benchmark Scores: High compute overhead on large-scale datasets -> Proposed: Achieves superior accuracy-latency Pareto tradeoff.</li>
+                </ul>
+            </div>
+
+            <!-- 4 & 5. Motivation & Business Impact in 2-column style -->
+            <div style="display: grid; grid-template-columns: 1fr; gap: 10px; margin-bottom: 16px;">
+                <div style="background-color: #fffbeb; border: 1px solid #fef3c7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #92400e; margin-bottom: 2px;">
+                        Critical Motivation & Core Gap
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #78350f;">
+                        Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation.
+                    </div>
+                </div>
+                <div style="background-color: #f0fdf4; border: 1px solid #dcfce7; padding: 9px 12px; border-radius: 6px;">
+                    <div style="font-size: 10.5px; font-weight: 700; text-transform: uppercase; color: #166534; margin-bottom: 2px;">
+                        Practical Business & Industry Impact
+                    </div>
+                    <div style="font-size: 12.5px; line-height: 1.4; color: #14532d;">
+                        Enables tech organizations to reduce infrastructure runtime costs and optimize latency in arXiv: CS.LG workloads.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Button -->
+            <div style="text-align: right;">
+                <a href="https://arxiv.org/pdf/2608.31157v1" target="_blank" style="display: inline-block; background-color: #0f172a; color: #ffffff; text-decoration: none; font-size: 11.5px; font-weight: 600; padding: 6px 14px; border-radius: 5px;">
+                    Read Full Paper (PDF) &rarr;
+                </a>
+            </div>
+        </div>
+        
+
+        <!-- Footer -->
+        <div style="text-align: center; font-size: 11px; color: #94a3b8; padding: 20px 0 10px 0; border-top: 1px solid #e2e8f0;">
+            <p style="margin: 0 0 6px 0;">
+                Delivered automatically by your <strong>Antigravity CS Papers Agent</strong>.
+            </p>
+            <p style="margin: 0; font-size: 10px; color: #cbd5e1;">
+                Sources: Google Scholar &bull; arXiv API &bull; SQLite Deduplicated
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
